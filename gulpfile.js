@@ -18,10 +18,12 @@ gulp.task('less', function () {
     .pipe(gulp.dest('./css'));
 });
 gulp.task('mustache', function () {
-	gulp.src('./templates/*.mustache')
-    	.pipe(mustache({},{},{
-    		head: "./templates/misc/head.mustache",
-    		foot: "./templates/misc/foot.mustache"
+	gulp.src('./templates/**/*.mustache')
+    	.pipe(mustache(
+      './js/data.json',
+      {},{
+    		head: "./templates/partials/head.mustache",
+    		foot: "./templates/partials/foot.mustache"
       }))
     	.pipe(gulp.dest('./'));
 })

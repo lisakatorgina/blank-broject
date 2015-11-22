@@ -1,0 +1,8 @@
+{
+	"title": "blank project",
+	"greeting": "Hello!",
+	"creatures" : [
+		{"name" : "enot"},
+		{"name" : "kotisha"}
+	]
+}

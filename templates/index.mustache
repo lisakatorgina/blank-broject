@@ -1,5 +1,11 @@
 {{> head}}
 
-<h1>Blank!</h1>
+<h1>{{greeting}}</h1>
+
+<ul>
+	{{#creatures}}
+		<li>{{name}}</li>
+	{{/creatures}}
+</ul>
 
 {{> foot}}
