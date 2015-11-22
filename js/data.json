@@ -3,6 +3,10 @@
 	"greeting": "Hello!",
 	"creatures" : [
 		{"name" : "enot"},
-		{"name" : "kotisha"}
-	]
+		{"name" : "kotisha"},
+		{"name": "malenky kot"}
+	],
+	"name": "Lisa",
+	"profession": "frontend-developer",
+	"city": "Moscow"
 }
