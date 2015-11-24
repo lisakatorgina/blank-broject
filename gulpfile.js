@@ -23,7 +23,14 @@ gulp.task('mustache', function () {
       './js/data.json',
       {},{
     		head: "./templates/partials/head.mustache",
-    		foot: "./templates/partials/foot.mustache"
+    		foot: "./templates/partials/foot.mustache",
+        header: "./templates/partials/header.mustache",
+        main_slider: "./templates/partials/main-slider.mustache",
+        footer: "./templates/partials/footer.mustache",
+        iconblock: "./templates/partials/iconblock.mustache",
+        actions: "./templates/partials/actions.mustache",
+        imageblock: "./templates/partials/imageblock.mustache",
+        imagenav: "./templates/partialsimagenav.mustache"
       }))
     	.pipe(gulp.dest('./'));
 })

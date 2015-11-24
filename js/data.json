@@ -1,12 +1,52 @@
 {
 	"title": "blank project",
 	"greeting": "Hello!",
-	"creatures" : [
-		{"name" : "enot"},
-		{"name" : "kotisha"},
-		{"name": "malenky kot"}
+	"top-menu": [
+		{"item": "Частным клиентам", "link": ""},
+		{"item": "Бизнесу", "link": ""},
+		{"item": "Партнерам", "link": ""},
+		{"item": "О банке", "link": ""}
 	],
-	"name": "Lisa",
-	"profession": "frontend-developer",
-	"city": "Moscow"
+	"main-menu": [
+		{"item": "Кредиты наличными", "link": ""},
+		{"item": "Кредиты в магазинах", "link": ""},
+		{"item": "Вклады", "link": ""},
+		{"item": "Банковские карты", "link": ""},
+		{"item": "Privat banking", "link": ""},
+		{"item": "Другие продукты", "link": ""}
+	],
+	"actions": [
+		{"title": "Получить кредит", "icon": "i/icons/percent.svg", "link": ""},
+		{"title": "Открыть вклад", "icon": "i/icons/bag.svg", "link": ""},
+		{"title": "Погасить кредит", "icon": "i/icons/coin.svg", "link": ""},
+		{"title": "Перевести с карты на карту", "icon": "i/icons/card.svg", "link": ""},
+		{"title": "Я взял кредит", "icon": "i/icons/graph.svg", "link": ""},
+		{"title": "Я получил кредит", "icon": "i/icons/card2.svg", "link": ""}
+	],
+	"iconblock": [
+		{"title": "Погашение", "icon": "i/icons/wallet.svg", "link": ""},
+		{"title": "График платежей", "icon": "i/icons/graph2.svg", "link": ""},
+		{"title": "Приложение ОТП Кредит", "icon": "i/icons/phone.svg", "link": ""},
+		{"title": "Спецпредложения", "icon": "i/icons/ticket.svg", "link": ""}
+	],
+	"imagenav": [
+		{"title": "Отделения и банкоматы", "image": "i/promo3.jpg", "link": ""},
+		{"title": "О банке", "image": "i/promo4.jpg", "link": ""},
+		{"title": "Private banking", "image": "i/promo5.jpg", "link": ""}
+	],
+	"footer": {
+		"first-col": [
+			{"title": "Частным лицам", "link": ""},
+			{"items": [
+				{"title": "Кредит наличными", "link": ""},
+				{"title": "Кредит в магазине", "link": ""},
+				{"title": "Погашение кредитов", "link": ""},
+				{"title": "Банковские карты", "link": ""},
+				{"title": "Вклады", "link": ""},
+				{"title": "Денежные переводы", "link": ""},
+				{"title": "Private banking", "link": ""},
+				{"title": "Другие продукты", "link": ""}
+			]}
+		]
+	}
 }
