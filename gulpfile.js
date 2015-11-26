@@ -19,11 +19,9 @@ gulp.task('less', function () {
 });
 gulp.task('mustache', function () {
 	gulp.src('./templates/**/*.mustache')
-    	.pipe(mustache(
-      './js/data.json',
-      {},{
-    		head: "./templates/partials/head.mustache",
-    		foot: "./templates/partials/foot.mustache",
+    	.pipe(mustache('./js/data.json', {},{
+        head: "./templates/partials/head.mustache",
+        foot: "./templates/partials/foot.mustache",
         header: "./templates/partials/header.mustache",
         main_slider: "./templates/partials/main-slider.mustache",
         footer: "./templates/partials/footer.mustache",
